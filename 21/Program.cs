@@ -19,17 +19,17 @@ namespace _21
             } while (couleur != 'R' && couleur != 'O' & couleur != 'V');
             if (couleur == 'R')
             {
-                Console.WriteLine("s'arreter");
+                Console.WriteLine("Rouge");
             }
             else
             {
                 if (couleur == 'O')
                 {
-                    Console.WriteLine("ralentir");
+                    Console.WriteLine("Orange");
                 }
                 else
                 {
-                    Console.WriteLine("roulez");
+                    Console.WriteLine("Vert");
                 }
             }
             Console.ReadLine();
